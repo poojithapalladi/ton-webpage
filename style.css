@@ -1,0 +1,172 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+.hero {
+  padding: 4rem 0;
+}
+
+img {
+  image-rendering: auto;
+  object-fit: cover;
+  max-width: 100%;
+  height: auto;
+}
+
+.hero h1 {
+  font-weight: 500;
+}
+
+.card-section {
+  padding: 3rem 0;
+}
+ .nav-item {
+  color: #323f4b;
+  margin-right: 1rem;
+  font-weight: 600;
+}
+
+.nav-link {
+  color: #323f4b;
+  font-weight: 500;
+}
+
+.paragraph {
+  color: #000000;
+  font-size: 1.2rem;
+}
+.card-title{
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.card-paragraph{
+    color:#ffffff;
+     font-size: 12px;
+
+}
+
+.discover {
+  color: #000000;
+  font-size: 0.7rem;
+  font-weight: 550;
+  text-transform: uppercase;
+}
+
+.card-custom {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+/* 🌟 New styles for image-overlay cards */
+.card {
+  border: none;
+  border-radius: 16px;
+  overflow: hidden;
+  height: 100%;
+}
+
+.card-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.card-img-overlay {
+      .card-img-overlay {
+  background: rgba(0, 0, 0, 0.35); /* adjust from 0.35 to 0.45 as needed */
+  backdrop-filter: blur(4px);
+  color: #ffffff;
+  border-radius: 0 0 6px 6px;
+  padding: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: absolute;
+  bottom: 0;
+  border: solid , #000;
+  left: 0;
+  right: 0;
+  height: 100%;
+    transition: background 0.3s ease;
+ }
+
+ }
+
+ .card-img-overlay .btn {
+  background-color: #ffffff;
+  color: #000;
+  font-weight: 600;
+  border-radius: 6px;
+  font-size: 13px;
+  height:35px;
+    width: 180px;
+  padding: 6px 12px;
+
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+ 
+ 
+.card-img-overlay h5 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.card-img-overlay p {
+   margin-bottom: 0.5rem;
+}
+
+ 
+.card-img-overlay span {
+  font-size: 0.75rem;
+}
+
+/* Responsive fixes */
+@media (max-width: 576px) {
+  .card-img-overlay h5 {
+    font-size: 1rem;
+  }
+
+  .card-img-overlay p,
+  .card-img-overlay .btn,
+  .card-img-overlay span {
+    font-size: 0.7rem;
+  }
+}
+
+/* Optional: Animate on scroll or hover */
+  
+.insights-section {
+  align-items: center;
+  color: #000000;
+  padding: 4rem 0;
+}
+
+.button {
+  background-color: #000000;
+  font-size: 12px;
+  height: 38px;
+  width: 150px;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 600px;
+}
+
+.footer {
+  background-color: #e9ecef;
+  padding: 2rem 0;
+}
