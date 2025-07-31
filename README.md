@@ -6,7 +6,7 @@ This is a responsive landing page built using **HTML, CSS, and Bootstrap**. It s
 
 ## 🔗 Live Deployment
 
-👉 [https://gogaga-training-page.netlify.app/](/)
+👉 [ton-webpageapp.netlify.app]
 
 ---
 
