@@ -6,7 +6,7 @@ This is a responsive landing page built using **HTML, CSS, and Bootstrap**. It s
 
 ## 🔗 Live Deployment
 
-👉 [ton-webpageapp.netlify.app]
+👉 [https://ton-webpageapp.netlify.app/]
 
 ---
 
